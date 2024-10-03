@@ -1,0 +1,61 @@
+@import '../scss/variables';
+@import '../scss/extend';
+@import '../scss/includes';
+
+
+#ItBerries {
+  border: 2px solid $primaryColor;
+
+  h2 {
+    text-align: center;
+    color: $secondaryColor;
+    text-decoration: underline;
+  }
+  .blog {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: $radius;
+    box-shadow: 0px 0px 4px $borderColor;
+    h3 {
+      text-align: center;
+      color: purple;
+      font-size: 12px;
+    }
+  }
+
+  .boxes{
+    // @extend .flex_center;
+    @include flex(space-between);
+    @include mobile{
+        flex-direction: column;
+    }
+    @include tablet{
+        flex-direction: row;
+        gap: 20px;
+    }
+    div{
+        border: 2px solid peru;
+        height: 20vh;
+        @include mobile{
+           width: 100%;
+        }
+        @include tablet{
+            flex: 1 100px;
+            flex-direction: row;
+        }
+    }
+    .one{
+        @include image('../../assets/react.svg')
+    }
+    .two{
+        @include image('/vite.svg');
+        background-size: cover;
+    }
+  }
+}
+
+// #ItBerries h2{
+//     text-align: center;
+//     color: blue;
+// }

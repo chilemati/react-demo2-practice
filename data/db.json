@@ -1,0 +1,46 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "How to boil rice",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+      "author": "Amadi Chile"
+    },
+    {
+      "id": "2",
+      "title": "How to fry rice part 2",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+      "author": "Sandra "
+    },
+    {
+      "id": "3",
+      "title": "How to steam rice part 2",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+      "author": "Samuel"
+    },
+    {
+      "id": "9c82",
+      "title": "React",
+      "body": "I'm Reacting to React",
+      "author": "Amadi Ben"
+    }
+  ],
+  "users": [
+    {
+      "id": "test@example.us",
+      "firstName": "Jon",
+      "lastName": "Doe",
+      "email": "test@example.us",
+      "password": "skdusudisud3W@",
+      "role": "normal"
+    },
+    {
+      "id": "amadichile2@gmail.com",
+      "firstName": "João",
+      "lastName": "Souza Silva",
+      "email": "amadichile2@gmail.com",
+      "password": "skdusudisud3W@",
+      "role": "Admin"
+    }
+  ]
+}

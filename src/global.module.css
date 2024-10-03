@@ -1,0 +1,12 @@
+.p{
+    color: green;
+    font-size: 2rem;
+    border: 4px groove black;
+}
+
+.h3{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+@mixin flex($type) {
+  display: flex;
+  align-items: center;
+  justify-content: $type;
+}
+
+@mixin image($url) {
+    background-image: url($url);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@mixin mobile () {
+    @media screen and (min-width: 0px) {
+        @content;
+    }
+}
+@mixin tablet () {
+    @media screen and (min-width: 680px) {
+        @content;
+    }
+}
+@mixin desktop () {
+    @media screen and (min-width: 960px) {
+        @content;
+    }
+}
+
+// @include mobile{ css rules}
